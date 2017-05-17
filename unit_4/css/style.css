@@ -1,33 +1,60 @@
-<style>
 @import url(https://fonts.googleapis.com/css?family=Lora|Oswald:400,700|Raleway:200,400,900);
 
 body {
-  text-align: center;
-  background: url("macintosh hd/users/jaxxsuds/desktop/ga/jaxxsuds.github.io/unit_3/images/jaxx_detroit.jpg");
-  background-size: cover;
-  color: #fff;
+	color: #333;
 }
 
 h1 {
-	font-family: 'Oswald 700', sans-serif;
-	font-size: 50px;
-	margin-bottom: 1em;
+	position: absolute;
+	font-family: 'Oswald 700';
+	color: #fff;
+	text-align: center;
+	font-size:70px;
 	text-transform: uppercase;
+	left: 25%;
+	top: 20%;
+	text-decoration: underline;
+	
 }
-
 h2 {
-	font-family: 'Raleway:200', sans-serif;
-	font-size: 20px;
-}
-
-h3 {
-	font-family: 'Raleway:400';
-	font-size: 14px;
+	font-family: 'Raleway 200';
+	color: #222;
+	text-align: left;
+	font-size: 16px;
 	text-transform: uppercase;
+}
+h4 {
+	font-family: 'Raleway 400';
+	color: #222;
+	text-align: left;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: 'Lora';
+	color: #222;
+	text-align: left;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 li {
+	
 	font-family: 'Lora';
-	font-size: 12px;
-}
+	color: #555;
+	text-align: left;
+	font-size:11px
 
-</style
+	
+}
+#slogan {
+	position: absolute;
+	font-style: italic;
+	font-family: Helvetica;
+	color: #fff;
+	text-align: left;
+	font-size:18px
+	text-transform: uppercase;
+	left: 25.5%;
+	top:40.5%;
+}
