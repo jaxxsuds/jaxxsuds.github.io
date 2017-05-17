@@ -12,14 +12,20 @@ h1 {
 	font-family: 'Oswald 700', sans-serif;
 	font-size: 50px;
 	margin-bottom: 1em;
+	text-transform: uppercase;
 }
 
 h2 {
-	font-family: 'Raleway 200';
+	font-family: 'Raleway:200', sans-serif;
 	font-size: 20px;
 }
 
-p {
+h3 {
+	font-family: 'Raleway:400';
+	font-size: 14px;
+	text-transform: uppercase;
+}
+li {
 	font-family: 'Lora';
 	font-size: 12px;
 }
