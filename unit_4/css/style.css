@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:200,400');
+
 
 body {
 	text-align: center;
-	background-image: url("https://lh3.googleusercontent.com/a0rH0In8fxi9yDnHaXoCCQPU_4sfcSiWRcR1TplKaoxCikq_Nz6D5CkLfM4mXvnWgZfRLWV-Qfhq2dnnmwTKTvKNyLWNSuQxnul0NRgxviy7_BuHDQOMiB-uU0Q3U5-7bGlOoOtJxJv2Ttd0cqaZ3mSF6do9AyIt8tGbdEs-v2oy2UppIuTjEpkyHunLa1DHZ68s7-HbokCovSewVev8a8sRPDpKJTggn3R3xLysxMrW-UKf8hYajl3XJBS7fDLCXo_WhafUxCEEsrs7Azb-4FF7ynGZyvZrhbYEebz63gFqiRF8OdT-GkDcT1UkgeNPpVQ8n9YQ2D6bhZg19567Scp2rcteQY8pQ_vRzHgBAwJv8k3XWdbPhZoOUaBtjZSGb6j6GtLtI2ne9ALpmrdQ8ZCXaCdvhWRE3EGkksGnT7y82o8_0iXPGtMN4PizMBYt3QDma1UpW6GbTDIyrDyamLVNiGqwcs9ywVnDt6d9I0rHJjn-Drhk145NoaxvyjQFyGbokTmHOE-W73KYQeKy7XXRbYsNVj0CIGys0ohr8cs-tUCTMMP97lCzQQ-vi8cEr8OBvaV4TrmiO_psby3TfkxzKM9fvmdTHPfZQ5hVNUfD80ebQzkVbx_uiNXfueO9mT0Y7MCaec_j9gHmv1j-dvodGVKbxurQ2AVPaaP-x3M=w1000-h667-no");
+	background-image: url("https://lh3.googleusercontent.com/xu2YrMKmc31Fbs6bBLpYbR8vqJXTdeH_yvbELQQ3Yp-gQTMgLIB8_yivThtlsjR1itx3bP0HJyQIP8FZ-cL_ImlJm5cSvXr25BRXlJophJrzisunUV4wPj067K1pM17VekaW_iRRJLtj0QeSkLrIm9lBT_zHAK3iYCEtFA2PxrSfK33Paq6zeaGgUUVwuyKwUvcfUfue6pDtdCS-9IB3mjKMp4zJfFVNLS1ovgsExqEp48UgMxSwIOjcnxkokY5eFWAThThOU0U6A37RwjCzlU9R0VCzhZ8aLx7z-2hUNnktaP4FNsyRUaBKTyBZPs_OIddFpCYd-ZqiLDsPFk48XL8TXZ6Ei-ueqC9MCUtPxbWrC5iPYGtq_w6nZ07l8kPhZEpzm-dAPZ0hUSwWukIOSd2S_eVkMN5z9mJilwQlEgrMRcIbzQl1EXAm7tI7n_HHiFL_lkLqAeegHMv4Tef-7i7rvT7c_TYGw9oTLn7Cr7pvf--hZljffZk1N4UjIznAz3A-3y23beUO8nlpxD7qzZDMFhgQn2wLuyO63OCUTWGXrRoPx_C6uLpL3F08m3ifGfVZBkEeD_9CBJX9SHIyMTeLgDVDMnFZeDXZ7mW5VzTh55CAZa-W=w1170-h780-no");
 	background-size: cover;
-	color: #f5f5f5;
+	color: #fff;
 
 }
 
 h1 {
 	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	letter-spacing: 4px;
 	text-transform: uppercase;
 	font-size: 120px;
+	color: #FC4C02 !important;
+	margin:.1em;
+	margin-top: 2em;
 }
 
 h2 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 200;
+	font-weight: 400;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-size: 35px;
 }
@@ -23,6 +31,32 @@ h2 {
 p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
-	font-size: 16px;
+	letter-spacing: 8px;
+	font-weight: 25;
+	font-size: 18px;
 	letter-spacing: 2px;
+}
+
+a.catbutton {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    color: #FC4C02;
+    border: 1px solid #FC4C02;
+    width: 150px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+a:hover {
+    color: #222;
+    border: 1px #FC4C02;
+    background-color: #FC4C02;
 }
