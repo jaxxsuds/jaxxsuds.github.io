@@ -1,60 +1,28 @@
-@import url(https://fonts.googleapis.com/css?family=Lora|Oswald:400,700|Raleway:200,400,900);
 
 body {
-	color: #333;
+	text-align: center;
+	background-image: url("https://lh3.googleusercontent.com/a0rH0In8fxi9yDnHaXoCCQPU_4sfcSiWRcR1TplKaoxCikq_Nz6D5CkLfM4mXvnWgZfRLWV-Qfhq2dnnmwTKTvKNyLWNSuQxnul0NRgxviy7_BuHDQOMiB-uU0Q3U5-7bGlOoOtJxJv2Ttd0cqaZ3mSF6do9AyIt8tGbdEs-v2oy2UppIuTjEpkyHunLa1DHZ68s7-HbokCovSewVev8a8sRPDpKJTggn3R3xLysxMrW-UKf8hYajl3XJBS7fDLCXo_WhafUxCEEsrs7Azb-4FF7ynGZyvZrhbYEebz63gFqiRF8OdT-GkDcT1UkgeNPpVQ8n9YQ2D6bhZg19567Scp2rcteQY8pQ_vRzHgBAwJv8k3XWdbPhZoOUaBtjZSGb6j6GtLtI2ne9ALpmrdQ8ZCXaCdvhWRE3EGkksGnT7y82o8_0iXPGtMN4PizMBYt3QDma1UpW6GbTDIyrDyamLVNiGqwcs9ywVnDt6d9I0rHJjn-Drhk145NoaxvyjQFyGbokTmHOE-W73KYQeKy7XXRbYsNVj0CIGys0ohr8cs-tUCTMMP97lCzQQ-vi8cEr8OBvaV4TrmiO_psby3TfkxzKM9fvmdTHPfZQ5hVNUfD80ebQzkVbx_uiNXfueO9mT0Y7MCaec_j9gHmv1j-dvodGVKbxurQ2AVPaaP-x3M=w1000-h667-no");
+	background-size: cover;
+	color: #f5f5f5;
+
 }
 
 h1 {
-	position: absolute;
-	font-family: 'Oswald 700';
-	color: #fff;
-	text-align: center;
-	font-size:70px;
+	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
-	left: 25%;
-	top: 20%;
-	text-decoration: underline;
-	
+	font-size: 120px;
 }
-h2 {
-	font-family: 'Raleway 200';
-	color: #222;
-	text-align: left;
-	font-size: 16px;
-	text-transform: uppercase;
-}
-h4 {
-	font-family: 'Raleway 400';
-	color: #222;
-	text-align: left;
-	font-size: 13px;
-	text-transform: uppercase;
-}
-h3 {
-	font-family: 'Lora';
-	color: #222;
-	text-align: left;
-	font-size: 11px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-li {
-	
-	font-family: 'Lora';
-	color: #555;
-	text-align: left;
-	font-size:11px
 
-	
-}
-#slogan {
-	position: absolute;
-	font-style: italic;
-	font-family: Helvetica;
-	color: #fff;
-	text-align: left;
-	font-size:18px
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
 	text-transform: uppercase;
-	left: 25.5%;
-	top:40.5%;
+	font-size: 35px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+	letter-spacing: 2px;
 }
